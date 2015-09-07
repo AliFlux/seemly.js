@@ -55,17 +55,17 @@ Only the elements within the `form` tag would be updated. This is more of a feat
 
 ### Attributes
 
-- `data-seemly` [values: undefined|`diff`|`replace`]
+- `data-seemly` [values: `undefined`|`diff`|`replace`]
 
 	`diff` option would use the diff algo [diffDOM.js](dist/diffDOM.js) to do the replacements. `replace` would trigger simple HTML replacement (not a good idea for JavaScript hooked elements).
 	
-- `data-seemly-preloader-text` [values: undefined|`string`]
+- `data-seemly-preloader-text` [values: `undefined`|`string`]
 
 	Used to mark the elements (divs, inputs, etc...) for showing the ajax status.
 	
-- `data-seemly-preloader-class` [values: undefined|`string`]
+- `data-seemly-preloader-class` [values: `undefined`|`string`]
 
-	This class would be activated to the element when the ajax is being carried out. Good for showing preloader animations.
+	This class would be activated to the element when the ajax is being carried out. Good for showing preloader animations (check out the [example](demo/with-seemly.php)).
 	
 ### Limitations
 
@@ -82,7 +82,7 @@ Details changes for each release will be documented in the [release notes](https
 
 ### Stay In Touch
 
-- For latest releases and announcements, check out my site: [aliashraf.net](https://aliashraf.net)
+For latest releases and announcements, check out my site: [aliashraf.net](https://aliashraf.net)
 
 ### License
 
