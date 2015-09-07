@@ -48,7 +48,7 @@ Only the elements within the `form` tag would be updated. This is more of a feat
 ### Examples
 
 - [Without seemly](demo/without-seemly.php)
-- [Express setup](demo/express.php)
+- [With seemly (Express setup)](demo/express.php)
 - [Customized setup + preloader](demo/with-seemly.php)
 - [File upload without seemly](demo/upload-without-seemly.php)
 - [File upload with seemly](demo/upload-with-seemly.php)
@@ -57,7 +57,7 @@ Only the elements within the `form` tag would be updated. This is more of a feat
 
 - `data-seemly` [values: undefined|`diff`|`replace`]
 
-	`diff` option would use the diff algo [diffDOM.js](src/diffDOM.js) to do the replacements. `replace` would trigger simple HTML replacement (not a good idea for JavaScript hooked elements).
+	`diff` option would use the diff algo [diffDOM.js](dist/diffDOM.js) to do the replacements. `replace` would trigger simple HTML replacement (not a good idea for JavaScript hooked elements).
 	
 - `data-seemly-preloader-text` [values: undefined|`string`]
 
