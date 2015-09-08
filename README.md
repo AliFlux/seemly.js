@@ -82,11 +82,11 @@ Details changes for each release will be documented in the [release notes](https
 
 ### Stay In Touch
 
-For latest releases and announcements, check out my site: [aliashraf.net](https://aliashraf.net)
+For latest releases and announcements, check out my site: [aliashraf.net](http://aliashraf.net)
 
 ### License
 
 This software is released under the [MIT License](LICENSE). Please read LICENSE for information on the
 software availability and distribution.
 
-Copyright (c) 2015 [Ali Ashraf](https://aliashraf.net)
+Copyright (c) 2015 [Ali Ashraf](http://aliashraf.net)
