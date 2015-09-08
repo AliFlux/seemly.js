@@ -1,10 +1,10 @@
 ## Seemly.js - Ajaxify your forms ASAP
 
-Traditional forms that reload the entire page on submit are a bad impression in 2015, they really screw up the UX. Converting these forms into dynamic ajax based forms is usually a headache as well. Seemly.js takes care of that.
+Everyone hates forms that reload the entire page on submission, they really screw up the UX. And converting these forms into dynamic ajax based forms is usually a headache as well. Seemly.js takes care of that seamlessly.
 
 ### So what does it do?
 
-It automagically converts simple web forms (PHP, ASP.NET, Node, Rails, etc...) into dynamic ajax based forms **without** changing a single line of your code.
+It automagically converts simple web forms (PHP, ASP.NET, Node, Rails, etc...) into dynamic ajax based forms **without** changing a single line of your JS code.
 
 ### Installation
 
@@ -34,7 +34,7 @@ You can also add `data-seemly-preloader-class` to an element to show a preloadin
 
 #### Note
 
-Only the elements within the `form` tag would be updated. This is more of a feature to prevent unwanted changes effecting the page.
+Only the elements within the `form` tag would be updated. This is a feature to prevent unwanted changes effecting the page.
 
 ### Why Seemly.js is awesome
 
@@ -49,7 +49,7 @@ Only the elements within the `form` tag would be updated. This is more of a feat
 
 - [Without seemly](demo/without-seemly.php)
 - [With seemly (Express setup)](demo/express.php)
-- [Customized setup + preloader](demo/with-seemly.php)
+- [With seemly (Customized setup + preloader)](demo/with-seemly.php)
 - [File upload without seemly](demo/upload-without-seemly.php)
 - [File upload with seemly](demo/upload-with-seemly.php)
 
@@ -89,4 +89,4 @@ For latest releases and announcements, check out my site: [aliashraf.net](https:
 This software is released under the [MIT License](LICENSE). Please read LICENSE for information on the
 software availability and distribution.
 
-Copyright (c) 2015 Ali Ashraf
+Copyright (c) 2015 [Ali Ashraf](https://aliashraf.net)
